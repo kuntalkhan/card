@@ -89,14 +89,17 @@ body{
     display: block;
     height: 40px;
     width: 100%;
-    background: #48affb;
-    color: white;
+    /* background: #48affb; */
+    /* color: white; */
     text-align: center;
     line-height: 40px;
     border-radius: 10px;
+    border: 2px solid #48affb;
+    color: #48affb;
 }
 
 .btn:hover{
-    background-color: #1196f5;
+    background-color: #48affb;
+    color: white;
 }
 
